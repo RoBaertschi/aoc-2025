@@ -67,11 +67,11 @@ main :: proc() {
 // 811111111111119
 // 234234234234278
 // 818181911112111`))
-    // fmt.println(part1(#load("input")))
+    fmt.println("part1:", part1(#load("input")))
 
 //     fmt.println(part2(`987654321111111
 // 811111111111119
 // 234234234234278
 // 818181911112111`))
-    fmt.println(part2(#load("input")))
+    fmt.println("part2:", part2(#load("input")))
 }
